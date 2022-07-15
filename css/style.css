@@ -7460,8 +7460,11 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: .97;
-    background: rgb(14,55,110);
-    background: linear-gradient(90deg, rgba(14,55,110,1) 0%, rgba(0,32,74,1) 50%, rgba(4,47,102,1) 100%);
+    border-bottom-right-radius: 30px ;
+    border-bottom-left-radius: 30px ;
+    background: url(https://pbs.twimg.com/media/D4oH9uBX4AAxNvT?format=jpg&name=large);
+    background-size: 100%;
+    /* background: linear-gradient(90deg, rgba(14,55,110,1) 0%, rgba(0,32,74,1) 50%, rgba(4,47,102,1) 100%); */
     /* background: rgb(7,94,54);
     background: linear-gradient(90deg, rgba(7,94,54,1) 0%, rgba(89,31,226,1) 50%, rgba(51,5,101,1) 100%); */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#448ef6', endColorstr='#af05a9', GradientType=1 ); }
@@ -8993,3 +8996,5 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    
