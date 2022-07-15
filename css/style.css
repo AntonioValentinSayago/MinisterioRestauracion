@@ -7459,8 +7459,10 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: .97;
-    background: url(https://images.pexels.com/photos/2019333/pexels-photo-2019333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    /* background: linear-gradient(90deg, rgba(7,12,94,1) 0%, rgba(14,26,89,1) 50%, rgba(12,15,41,1) 100%); */
+    /* background: url(https://images.pexels.com/photos/2019333/pexels-photo-2019333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    /* background: linear-gradient(90deg, rgba(7,12,94,1) 0%, rgba(14,26,89,1) 50%, rgba(12,15,41,1) 100%); */ 
+    background: rgb(7,12,94);
+background: linear-gradient(90deg, rgba(7,12,94,1) 0%, rgba(14,26,89,1) 50%, rgba(12,15,41,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#448ef6', endColorstr='#af05a9', GradientType=1 ); }
 
 #particles-js {
