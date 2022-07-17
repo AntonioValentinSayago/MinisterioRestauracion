@@ -7307,8 +7307,8 @@ h1, h2, h3, h4, h5,
   top: 30px; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: rgb(14,55,110) !important;
-      background: linear-gradient(90deg, rgba(14,55,110,1) 0%, rgba(0,32,74,1) 50%, rgba(4,47,102,1) 100%);
+      background: rgb(15,199,207) !important;
+      background: linear-gradient(0deg, rgba(15,199,207,1) 0%, rgba(23,88,139,1) 100%) !important;
       font-weight: bold;
       top: 0;
       position: relative; } }
@@ -7462,9 +7462,8 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: .97;
-    border-bottom-right-radius: 40px ;
-    border-bottom-left-radius: 40px ;
-    background: url(https://www.10wallpaper.com/wallpaper/1920x1440/1309/outside_orbit-Universe_HD_Wallpaper_1920x1440.jpg);
+    background: rgb(45,123,209);
+    background: radial-gradient(circle, rgba(45,123,209,1) 0%, rgba(1,158,61,1) 100%);
     background-size: 100%;
     /* background: linear-gradient(90deg, rgba(14,55,110,1) 0%, rgba(0,32,74,1) 50%, rgba(4,47,102,1) 100%); */
     /* background: rgb(7,94,54);
