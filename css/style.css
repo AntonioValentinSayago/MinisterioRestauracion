@@ -7309,7 +7309,6 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light {
       background: rgb(14,55,110) !important;
       background: linear-gradient(90deg, rgba(14,55,110,1) 0%, rgba(0,32,74,1) 50%, rgba(4,47,102,1) 100%);
-      color: white;
       font-weight: bold;
       top: 0;
       position: relative; } }
