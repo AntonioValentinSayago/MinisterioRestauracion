@@ -7307,7 +7307,10 @@ h1, h2, h3, h4, h5,
   top: 30px; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #404044 !important;
+      background: rgb(14,55,110) !important;
+      background: linear-gradient(90deg, rgba(14,55,110,1) 0%, rgba(0,32,74,1) 50%, rgba(4,47,102,1) 100%);
+      color: white;
+      font-weight: bold;
       top: 0;
       position: relative; } }
   .ftco-navbar-light .navbar-brand {
@@ -7460,9 +7463,9 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: .97;
-    border-bottom-right-radius: 30px ;
-    border-bottom-left-radius: 30px ;
-    background: url(https://pbs.twimg.com/media/D4oH9uBX4AAxNvT?format=jpg&name=large);
+    border-bottom-right-radius: 40px ;
+    border-bottom-left-radius: 40px ;
+    background: url(https://images.squarespace-cdn.com/content/v1/571690422b8ddee5df762d8e/1624571461919-L0G7FXQ5P3NWLZA5AVQT/1.jpg);
     background-size: 100%;
     /* background: linear-gradient(90deg, rgba(14,55,110,1) 0%, rgba(0,32,74,1) 50%, rgba(4,47,102,1) 100%); */
     /* background: rgb(7,94,54);
@@ -8079,6 +8082,7 @@ textarea.form-control {
   background: #ee76ad !important; }
 
 .ftco-section .ftco-sub-title {
+  margin-top: -500px;
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: .5em;
